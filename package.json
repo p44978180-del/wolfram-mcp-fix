@@ -1,10 +1,12 @@
 {
-  "name": "wolfram-mcp-final",
+  "name": "wolfram-mcp-standalone",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "npx -y @modelcontextprotocol/server-wolfram-alpha --transport sse --port 3000 --host 0.0.0.0"
+    "start": "node index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/server-wolfram-alpha": "github:modelcontextprotocol/server-wolfram-alpha"
+    "@modelcontextprotocol/sdk": "latest",
+    "axios": "latest"
   }
 }
