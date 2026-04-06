@@ -1,0 +1,10 @@
+{
+  "name": "wolfram-mcp-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx -y @modelcontextprotocol/server-wolfram-alpha --transport sse --port 3000 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server-wolfram-alpha": "latest"
+  }
+}
